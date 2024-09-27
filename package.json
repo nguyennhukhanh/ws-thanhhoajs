@@ -1,0 +1,22 @@
+{
+  "name": "ws-thanhhoajs",
+  "module": "index.ts",
+  "version": "1.0.0",
+  "author": "Nguyen Nhu Khanh <kwalker.nnk@gmail.com>",
+  "scripts": {
+    "start": "bun run --watch src/main.ts",
+    "format": "prettier --write src/**/*"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@thanhhoajs/validator": "^1.0.4",
+    "@thanhhoajs/websocket": "^1.0.9"
+  }
+}
